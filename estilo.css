@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: radial-gradient(circle, rgb(193, 182, 176) 29%, rgb(158, 140, 140) 100%);
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.mueblesvalarte.com/wp-content/uploads/2022/02/valarte-febrero-01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.navbar-custom {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
